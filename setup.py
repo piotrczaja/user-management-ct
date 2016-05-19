@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 version = re.search('^__version__\s*=\s*"(.*)"',
-                    open('um-ct/__init__.py').read(), re.M).group(1)
+                    open('um-ct-pkg/__init__.py').read(), re.M).group(1)
 
 
 here = os.path.abspath(os.path.dirname(__file__))
@@ -34,5 +34,5 @@ setup(name='user-management-ct',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="um-ct",
+      test_suite="um-ct-pkg",
       )
