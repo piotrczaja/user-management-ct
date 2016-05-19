@@ -1,7 +1,6 @@
 
-Welcome to User Management CT's documentation!
-==============================================
-
+User Management CT's documentation!
+===================================
 
 Version: |version|
 
@@ -11,13 +10,3 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
