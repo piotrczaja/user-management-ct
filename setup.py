@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 version = re.search('^__version__\s*=\s*"(.*)"',
-                    open('um-ct-pkg/__init__.py').read(), re.M).group(1)
+                    open('user-management-ct/__init__.py').read(), re.M).group(1)
 
 
 here = os.path.abspath(os.path.dirname(__file__))
