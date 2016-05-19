@@ -34,5 +34,5 @@ setup(name='user-management-ct',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="um-ct-pkg",
+      test_suite="user-management-ct",
       )
